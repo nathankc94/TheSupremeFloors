@@ -1,6 +1,32 @@
-/* .logo {
-    border-radius: 10%;
-} */
-.jumbotron  {
-    background-image: url(images/tsflogo.png);
+body html {
+    font-family: 'Playfair Display', serif;
+ background-color: white;
 }
+.nav-link {
+    color: white;
+    font-size: 20px;
+    /* text-shadow: 5px 10px 18px #111010; */
+}
+.logo {
+    margin-left: 3rem;
+    box-shadow: 5px 10px 18px #111010;
+}
+.jumbotron  {
+  
+    background-image: url("https://images.pexels.com/photos/326311/pexels-photo-326311.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+    color: aliceblue;
+}
+.btn {
+    box-shadow: 5px 10px 18px #111010;
+}
+#main-footer {
+    text-align: center;
+    padding: 1rem;
+    background: rgb(153, 152, 152);
+    color: white;
+    height: 60px;
+  }
+
+  a {
+    color: white;
+  }
