@@ -22,9 +22,9 @@
     <title>The Supreme Floors</title>
   </head>
   <body>
-      <!-- Navbar -->
-    <div class="container">
-      <nav class="navbar  navbar-expand-lg" style="background-color: #D8BB5D;">
+    <!-- Navbar -->
+    <!-- <div class="container"> -->
+      <nav class="navbar sticky-top navbar-expand-lg" style="background-color: #D8BB5D;">
         <a class="navbar-brand" href="#">
           <img
             src="assets/images/tsflogosm.png"
@@ -64,19 +64,20 @@
           </ul>
         </div>
       </nav>
-    </div>
-<!-- Jumnotron -->
-    <div class="container">
-      <div class="jumbotron">
-        <div class="jumbg"></div>
-        <h1 class="display-4">The Supreme Floors</h1>
-        <p class="lead">
+    <!-- </div> -->
+    <!-- Jumnotron -->
+    <!-- <div class="container"> -->
+      <div class="jumbotron jumbotron-fluid">
+        
+        <h1 class="display-4 ml-4">The Supreme Floors</h1>
+        <p class="lead ml-4">
           This is a modified jumbotron that occupies the entire horizontal space
           of its parent.
         </p>
+
         <button
           type="button"
-          class="btn"
+          class="btn ml-4"
           style="background-color: #D8BB5D;"
           data-toggle="modal"
           data-target="#exampleModal"
@@ -85,7 +86,7 @@
           Free In-Home Estimate
         </button>
       </div>
-    </div>
+    <!-- </div> -->
 
     <!-- Modal -->
     <div
@@ -110,7 +111,6 @@
             </button>
           </div>
 
-          
           <div class="modal-body">
             <form>
               <div class="form-group">
@@ -140,24 +140,75 @@
         </div>
       </div>
     </div>
-<!-- About -->
-    <div class="container">
-        <div class="row">
-          <div class="col-8">col-8</div>
-          <div class="col-4">col-4</div>
+    <!-- About -->
+    <div id="about" class="container border-dark">
+      <!-- Stack the columns on mobile by making one full-width and the other half-width -->
+      <div class="row mb-4">
+        <div class="col-12 col-md-8 bg-light">
+          <h1 class="border-bottom">About Us</h1>
+          <p>
+            Excellency at its best. Our company was established back in 2014. We
+            specialize in flooring on all type (Carpets/Lvp and Vinyls and we do
+            Painting as well). From the start to finish we want our customers to
+            be satisfied with the our jobs. So we always do the best quality of
+            work and nothing less. We take pride in our installation/ Painting
+            jobs. So we work hard because we love to see the joy and
+            satisfaction on our customers faces when everything is finished.
+            Here at The Supreme Floors our lovely customers are first.
+          </p>
         </div>
-            <div class="row">
-              <div class="col">col</div>
-              <div class="col">col</div>
-              <div class="col">col</div>
-              <div class="col">col</div>
-            </div>
-          </div>
+        <div class="col-6 col-md-4 mt-4">
+          <img
+            class="imgLogo rounded mx-auto d-block img-fluid"
+            src="assets/images/tsflogomd.png"
+            alt="logo"
+          />
+        </div>
+      </div>
 
+      <!-- Columns start at 50% wide on mobile and bump up to 33.3% wide on desktop -->
+      <div class="row">
+        <div class="card-group">
+          <div class="card">
+                <h2 class="text-center">Carpets</h2>
+            <img
+              src="https://images.floorforce.com/Textures/13093/Carpet/db0616f1-d650-4155-95bc-230428a1771b/Images/1825721_500x500.jpg"
+              class="card-img-bottom"
+              alt="carpets"
+            />
+          </div>
+          <div class="card">
+                <h2 class="text-center">Vinyls</h2>
+            <img
+              src="https://images.homedepot-static.com/productImages/46246eba-716a-4dfb-96ed-e86df1b9e01a/svn/warm-cherry-home-decorators-collection-vinyl-plank-flooring-44415-64_1000.jpg"
+              class="card-img-bottom"
+              alt="vinyls"
+            />
+          </div>
+          <div class="card">
+                <h2 class="text-center">Painting</h2>
+            <img
+              src="https://images.pexels.com/photos/994164/pexels-photo-994164.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+              class="card-img-bottom"
+              alt="painting"
+            />
+          </div>
+          
+          </div>
+        </div>
+      </div>
+
+      <!-- Columns are always 50% wide, on mobile and desktop -->
+      <div class="row">
+        <div class="col-6">.col-6</div>
+        <div class="col-6">.col-6</div>
+      </div>
+    </div>
 
     <!-- footer -->
     <footer class="fixed-bottom" id="main-footer">
-      Copyright &copy; 2019, <a target="_blank" href="https://sriprom.net">Design by A Sriprom</a> 
+      Copyright &copy; 2019,
+      <a target="_blank" href="https://sriprom.net">Design by A Sriprom</a>
     </footer>
 
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->

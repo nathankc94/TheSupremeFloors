@@ -30,3 +30,7 @@ body html {
   a {
     color: white;
   }
+
+  .imgLogo {
+    box-shadow: 5px 10px 18px #111010;
+  }
