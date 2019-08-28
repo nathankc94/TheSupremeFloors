@@ -112,20 +112,74 @@
           </div>
 
           <div class="modal-body">
-            <form>
-              <div class="form-group">
-                <label for="recipient-name" class="col-form-label"
-                  >Recipient:</label
-                >
-                <input type="text" class="form-control" id="recipient-name" />
-              </div>
-              <div class="form-group">
-                <label for="message-text" class="col-form-label"
-                  >Message:</label
-                >
-                <textarea class="form-control" id="message-text"></textarea>
-              </div>
-            </form>
+                <form>
+                        <div class="form-row">
+                          <div class="col-md-6 mb-3">
+                            <label for="validationServer01">First name</label>
+                            <input type="text" class="form-control is-valid" id="validationServer01" placeholder="First name" value="Mark" required>
+                            <!-- <div class="valid-feedback">
+                              Looks good!
+                            </div> -->
+                          </div>
+                          <div class="col-md-6 mb-3">
+                            <label for="validationServer02">Last name</label>
+                            <input type="text" class="form-control is-valid" id="validationServer02" placeholder="Last name" value="Otto" required>
+                            <!-- <div class="valid-feedback">
+                              Looks good!
+                            </div> -->
+                          </div>
+                        </div>
+                        <div class="form-row">
+                          <div class="col-md-6 mb-3">
+                            <label for="validationServer03">City</label>
+                            <input type="text" class="form-control is-invalid" id="validationServer03" placeholder="City" required>
+                            <!-- <div class="invalid-feedback">
+                              Please provide a valid city.
+                            </div> -->
+                          </div>
+                          <div class="col-md-3 mb-3">
+                            <label for="validationServer04">State</label>
+                            <input type="text" class="form-control is-invalid" id="validationServer04" placeholder="State" required>
+                            <!-- <div class="invalid-feedback">
+                              Please provide a valid state.
+                            </div> -->
+                          </div>
+                          <div class="col-md-3 mb-3">
+                            <label for="validationServer05">Zip</label>
+                            <input type="text" class="form-control is-invalid" id="validationServer05" placeholder="Zip" required>
+                            <!-- <div class="invalid-feedback">
+                              Please provide a valid zip.
+                            </div> -->
+                          </div>
+                        </div>
+
+                       <div class="form-row">
+                            <div class="col-md-4 mb-3">
+                                    <label for="validationServer07">Email:</label>
+                                    <input type="text" class="form-control is-invalid" id="validationServer07" placeholder="Email" required>
+                                    <!-- <div class="invalid-feedback">
+                                            Please provide email.
+                                          </div> -->
+                                  </div>
+                            <div class="col-md-4 mb-3">
+                                    <label for="validationServer08">Phone:</label>
+                                    <input type="text" class="form-control is-invalid" id="validationServer08" placeholder="Phone Number" required>
+                                    <!-- <div class="invalid-feedback">
+                                            Please provide Phone number.
+                                          </div> -->
+                                  </div>
+                            <div class="col-md-4 mb-3 form-group">
+                                    <label for="validationServer06">Job</label>
+                                    <select class="form-control" id="exampleFormControlSelect1">
+                                      <option>Carpet</option>
+                                      <option>Lvp</option>
+                                      <option>Vinyls</option>
+                                      <option>Painting</option>
+                                    </select>
+                                  </div>
+                       </div>
+                       
+                      </form>
           </div>
           <div class="modal-footer">
             <button
@@ -135,7 +189,7 @@
             >
               Close
             </button>
-            <button type="button" class="btn btn-primary">Send message</button>
+            <button class="btn btn-primary" type="submit">Submit</button>
           </div>
         </div>
       </div>
@@ -166,21 +220,29 @@
         </div>
       </div>
 
-      <!-- Columns start at 50% wide on mobile and bump up to 33.3% wide on desktop -->
+      <!-- Service -->
       <div class="row">
         <div class="card-group">
           <div class="card">
                 <h2 class="text-center">Carpets</h2>
             <img
-              src="https://images.floorforce.com/Textures/13093/Carpet/db0616f1-d650-4155-95bc-230428a1771b/Images/1825721_500x500.jpg"
+              src="assets/images/carpet.jpg"
               class="card-img-bottom"
               alt="carpets"
             />
           </div>
           <div class="card">
+                <h2 class="text-center">Lvp</h2>
+            <img
+              src="assets/images/vinyls.jpg"
+              class="card-img-bottom"
+              alt="Lvp"
+            />
+          </div>
+          <div class="card">
                 <h2 class="text-center">Vinyls</h2>
             <img
-              src="https://images.homedepot-static.com/productImages/46246eba-716a-4dfb-96ed-e86df1b9e01a/svn/warm-cherry-home-decorators-collection-vinyl-plank-flooring-44415-64_1000.jpg"
+              src="assets/images/lvp.jpg"
               class="card-img-bottom"
               alt="vinyls"
             />
@@ -188,7 +250,7 @@
           <div class="card">
                 <h2 class="text-center">Painting</h2>
             <img
-              src="https://images.pexels.com/photos/994164/pexels-photo-994164.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+              src="assets/images/paint.jpeg"
               class="card-img-bottom"
               alt="painting"
             />

@@ -13,7 +13,7 @@ body html {
 }
 .jumbotron  {
   
-    background-image: url("https://images.pexels.com/photos/326311/pexels-photo-326311.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+    background-image: url(./images/jumbo.jpeg);
     color: aliceblue;
 }
 .btn {
@@ -22,7 +22,7 @@ body html {
 #main-footer {
     text-align: center;
     padding: 1rem;
-    background: rgb(153, 152, 152);
+    background: rgb(211, 210, 210);
     color: white;
     height: 60px;
   }
@@ -33,4 +33,9 @@ body html {
 
   .imgLogo {
     box-shadow: 5px 10px 18px #111010;
+  }
+
+  .card {
+    background-color: rgb(211, 210, 210);
+    /* color: white; */
   }
