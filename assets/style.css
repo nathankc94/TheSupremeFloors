@@ -2,6 +2,8 @@ body html {
     font-family: 'Playfair Display', serif;
  background-color: white;
 }
+
+/*  Nav */
 .nav-link {
     color: white;
     font-size: 20px;
@@ -11,6 +13,8 @@ body html {
     /* margin-left: rem; */
     box-shadow: 5px 10px 18px #111010;
 }
+
+/*  jumbotron */
 .jumbotron  {
   
     background-image: url(./images/jumbo.jpeg);
@@ -19,6 +23,8 @@ body html {
 .btn {
     box-shadow: 5px 10px 18px #111010;
 }
+
+/* Footer */
 #main-footer {
     text-align: center;
     padding: 1rem;
@@ -31,13 +37,12 @@ body html {
     color: white;
   }
 
+  /* about */
+
   .imgLogo {
     box-shadow: 5px 10px 18px #111010;
   }
-  #founder {
-      margin-bottom: 30px;
-      margin-top: 30px;
-  }
+
   .rounded-pill {
     box-shadow: 5px 10px 18px #111010;
 
@@ -46,8 +51,12 @@ body html {
      
     box-shadow: 5px 10px 18px #111010;
   }
+  #junior {
+    width: 9rem;
+    height: 9rem;
+}
 
-
+/* services */
   .card {
     background-color: rgb(211, 210, 210);
     /* color: white; */
@@ -55,6 +64,7 @@ body html {
    box-shadow: 5px 10px 18px #111010;
   }
 
+  /* modal */
   #Estimate {
       margin-top: 30px;
       margin-bottom: 30px;
@@ -72,6 +82,7 @@ body html {
   /* .icons {
       margin-left: 15px;
   } */
+  /* contafct */
 
   #Contact h1 {
       margin-left: 20px;
@@ -81,7 +92,4 @@ body html {
       margin-left: 20px;
   }
 
-  #junior {
-      width: 12rem;
-      height: 12rem;
-  }
+ 
