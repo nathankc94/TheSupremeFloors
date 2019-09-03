@@ -65,7 +65,7 @@
             <a class="nav-link" href="#">About Us</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#about">Services</a>
+            <a class="nav-link" href="#Services">Services</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#Estimate">Contact</a>
@@ -121,114 +121,83 @@
           </div>
           <!-- modal -->
           <div class="modal-body">
-            <form>
+            <form name="contact" method="POST" data-netlify="true">
               <div class="form-row">
-                <div class="col-md-6 mb-3">
-                  <label for="validationServer01">First name</label>
+                <div class="col-lg-4 mb-3 ">
                   <input
                     type="text"
-                    class="form-control is-valid"
-                    id="validationServer01"
-                    placeholder="First name"
-                    value="Mark"
-                    required
+                    name="Name"
+                    class="form-control"
+                    placeholder="Name"
                   />
-                  <!-- <div class="valid-feedback">
-                              Looks good!
-                            </div> -->
                 </div>
-                <div class="col-md-6 mb-3">
-                  <label for="validationServer02">Last name</label>
+                <div class="col-lg-4 mb-3">
                   <input
                     type="text"
-                    class="form-control is-valid"
-                    id="validationServer02"
-                    placeholder="Last name"
-                    value="Otto"
-                    required
+                    name="Phone"
+                    class="form-control"
+                    placeholder="Phone"
                   />
-                  <!-- <div class="valid-feedback">
-                              Looks good!
-                            </div> -->
                 </div>
-              </div>
-              <div class="form-row">
-                <div class="col-md-6 mb-3">
-                  <label for="validationServer03">City</label>
+                <div class="col-lg-4  mb-3">
                   <input
                     type="text"
-                    class="form-control is-invalid"
-                    id="validationServer03"
-                    placeholder="City"
-                    required
-                  />
-                  <!-- <div class="invalid-feedback">
-                              Please provide a valid city.
-                            </div> -->
-                </div>
-                <div class="col-md-3 mb-3">
-                  <label for="validationServer04">State</label>
-                  <input
-                    type="text"
-                    class="form-control is-invalid"
-                    id="validationServer04"
-                    placeholder="State"
-                    required
-                  />
-                  <!-- <div class="invalid-feedback">
-                              Please provide a valid state.
-                            </div> -->
-                </div>
-                <div class="col-md-3 mb-3">
-                  <label for="validationServer05">Zip</label>
-                  <input
-                    type="text"
-                    class="form-control is-invalid"
-                    id="validationServer05"
-                    placeholder="Zip"
-                    required
-                  />
-                  <!-- <div class="invalid-feedback">
-                              Please provide a valid zip.
-                            </div> -->
-                </div>
-              </div>
-
-              <div class="form-row">
-                <div class="col-md-4 mb-3">
-                  <label for="validationServer07">Email:</label>
-                  <input
-                    type="text"
-                    class="form-control is-invalid"
-                    id="validationServer07"
+                    name="Email"
+                    class="form-control"
                     placeholder="Email"
-                    required
                   />
-                  <!-- <div class="invalid-feedback">
-                                            Please provide email.
-                                          </div> -->
                 </div>
-                <div class="col-md-4 mb-3">
-                  <label for="validationServer08">Phone:</label>
+              </div>
+              <div class="form-row">
+                <div class="col-lg-7 mb-3">
                   <input
                     type="text"
-                    class="form-control is-invalid"
-                    id="validationServer08"
-                    placeholder="Phone Number"
-                    required
+                    name="Street"
+                    class="form-control"
+                    placeholder="Street"
                   />
-                  <!-- <div class="invalid-feedback">
-                                            Please provide Phone number.
-                                          </div> -->
                 </div>
-                <div class="col-md-4 mb-3 form-group">
-                  <label for="validationServer06">Job</label>
-                  <select class="form-control" id="exampleFormControlSelect1">
-                    <option>Carpet</option>
-                    <option>Lvp</option>
-                    <option>Vinyls</option>
-                    <option>Painting</option>
+                <div class="col-lg-5  mb-3">
+                  <input
+                    type="text"
+                    name="City"
+                    class="form-control"
+                    placeholder="City"
+                  />
+                </div>
+              </div>
+              <div class="form-row">
+                <div class="col-lg-4 mb-3 form-group">
+                  <select class="custom-select" name="State">
+                    <option selected>State</option>
+                    <option value="Kansas">Kansas</option>
+                    <option value="Missouri">Missouri</option>
                   </select>
+                </div>
+                <div class="col-lg-4 mb-3 ">
+                  <input
+                    type="text"
+                    name="ZipCode"
+                    class="form-control"
+                    placeholder="Zip Code"
+                  />
+                </div>
+                <div class="col-lg-4 mb-3 form-group">
+                  <select class="custom-select" name="Services">
+                    <option selected>Services</option>
+                    <option value="Carpets">Carpets</option>
+                    <option value="Lvp">Lvp</option>
+                    <option value="Vinyls">Vinyls</option>
+                    <option value="Painting">Painting</option>
+                  </select>
+                </div>
+                <div class="col-lg-12 mb-3 form-group">
+                  <textarea
+                    class="form-control"
+                    name="Message"
+                    placeholder="Message"
+        
+                  ></textarea>
                 </div>
               </div>
             </form>
@@ -368,7 +337,7 @@
         <div class="col bg-light py-3">
           <h1 class="border-bottom">Contact</h1>
           <br />
-          <h5><strong>Phone:</strong> (913)-313-7957</h5>
+          <h5><strong>Phone:</strong> (913) 313-7957</h5>
           <h5><strong>Email:</strong> thesupremefloors@gmail.com</h5>
           <h5><strong>Address:</strong> Kansas City, Missouri</h5>
           <div class="icons text-right">

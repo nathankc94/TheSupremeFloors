@@ -91,7 +91,11 @@ body html {
   #Contact h5 {
       margin-left: 20px;
       color: black;
-      
+
+  }
+
+  h5 {
+      color: black;
   }
 iframe {
     box-shadow: 5px 10px 18px #111010;
