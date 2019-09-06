@@ -16,9 +16,17 @@ body html {
 
 /*  jumbotron */
 .jumbotron  {
-  
+
     background-image: url(./images/jumbo.jpeg);
-    color: aliceblue;
+    color: aliceblue; 
+  
+}
+.jumbotron h1 {
+font-size: 60px;
+  
+}
+.jumbotron  p{
+  font-size: 30px;
 }
 .btn {
     box-shadow: 5px 10px 18px #111010;
